@@ -22,7 +22,8 @@ class DaySupport
 	}
 
 
-	public function create_ticket($project_id, $heading, $description, $priority, $customer_id, $contact_fname, $contact_lname, $contact_email) 
+	public function create_ticket($project_id, $heading, $description, $priority, $customer_id, 
+		$contact_fname, $contact_lname, $contact_email) 
 	{
 		$api_url = $this->api_base_url.'/tickets/create';
 		$data = array(
