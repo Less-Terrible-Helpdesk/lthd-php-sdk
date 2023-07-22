@@ -1,5 +1,5 @@
 {
-    "name": "daysupport/daysupport-php-sdk",
+    "name": "daysupport/daysupport-php-sdk-v1",
     "description": "Php client sdk for Daysupport API",
     "homepage": "https://github.com/asm89/stack-cors",
     "type": "library",
@@ -15,7 +15,7 @@
     ], 
     "autoload": {
         "psr-4": {
-            "Joem\\App\\": "src"
+            "DaySupport\\PhpSdkV1\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -23,7 +23,7 @@
     }, 
     "autoload-dev": {
         "psr-4": {
-            "Asm89\\Stack\\Tests\\": "tests/"
+            "DaySupport\\PhpSdkV1\\Tests\\": "tests/"
         }
     }
 }

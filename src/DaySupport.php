@@ -1,10 +1,19 @@
 <?php
 
-namespace DaySupport\PhpSdk;
+namespace DaySupport\PhpSdkV1;
 
 
 class DaySupport 
 {
+	
+	const API_BASE_URL = 'https://api.lessterriblehelpdesk/api/v1';
+
+	
+	public function __construct() 
+	{
+		$client = new \GuzzleHttp\Client();
+	}
+
 
 	public function user_auth() 
 	{
@@ -20,6 +29,14 @@ class DaySupport
 
 	public function get_ticket() 
 	{
+		$api_url = 'tickets/'
+		$response = $this->client->request('GET', , [
+		  'headers' => [
+		    'accept' => 'application/json',
+		  ],
+		]);
+
+		echo $response->getBody();
 
 	}
 
