@@ -1,0 +1,29 @@
+{
+    "name": "daysupport/daysupport-php-sdk",
+    "description": "Php client sdk for Daysupport API",
+    "homepage": "https://github.com/asm89/stack-cors",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "authors": [
+        {
+            "name": "Krishnan",
+            "email": "lthdapp@gmail.com"
+        }
+    ], 
+    "autoload": {
+        "psr-4": {
+            "Joem\\App\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }, 
+    "autoload-dev": {
+        "psr-4": {
+            "Asm89\\Stack\\Tests\\": "tests/"
+        }
+    }
+}
