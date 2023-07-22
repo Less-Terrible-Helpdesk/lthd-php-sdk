@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "71865223469d38590300f4c8443bc9bf",
+    "packages": [
+        {
+            "name": "haruncpi/http",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/haruncpi/http.git",
+                "reference": "cc7020019cbf6d0ed9249fb32c688e62675b8ed7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/haruncpi/http/zipball/cc7020019cbf6d0ed9249fb32c688e62675b8ed7",
+                "reference": "cc7020019cbf6d0ed9249fb32c688e62675b8ed7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Haruncpi\\Http\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "cc-by-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Md.Harun-Ur-Rashid",
+                    "email": "harun.cox@gmail.com"
+                }
+            ],
+            "description": "Simple HTTP client for PHP",
+            "keywords": [
+                "http",
+                "http-client",
+                "php",
+                "php-curl"
+            ],
+            "time": "2022-03-12T13:58:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
